@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.gallery-img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+.modal-body img {
+    max-height: 700px;
+    width: auto;
+}
+.modal-dialog{
+    max-width: 70%;
+    height: auto;
+}
